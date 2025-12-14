@@ -1,3 +1,4 @@
+// Roles.tsx
 const Roles = ({ role }) => {
   return (
     <div className="relative bg-white rounded-xl p-6 mb-6 shadow-sm hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-picto-primary">
@@ -29,6 +30,18 @@ const Roles = ({ role }) => {
       <p className="text-gray-700 text-sm sm:text-base mb-4">
         {role.description}
       </p>
+
+      {/* Details List */}
+      {role.details && role.details.length > 0 && (
+        <ul className="mb-4 space-y-2">
+          {role.details.map((detail, index) => (
+            <li key={index} className="text-sm text-gray-600 flex items-start">
+              <span className="text-picto-primary mr-2 mt-1">▸</span>
+              {detail}
+            </li>
+          ))}
+        </ul>
+      )}
 
       {/* Technologies */}
       <div className="flex flex-wrap gap-2">

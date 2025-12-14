@@ -1,3 +1,4 @@
+// Profession.tsx
 import Roles from "./Roles";
 
 const rolesData = [
@@ -10,7 +11,12 @@ const rolesData = [
     period: "Jul 2023 – Present",
     location: "Tehran, Iran",
     description:
-      "Working as an Angular Developer on large-scale web applications, focusing on building scalable, maintainable, and high-performance front-end solutions. Collaborating closely with product and backend teams to implement complex business logic and improve user experience.",
+      "Working as an Angular Developer on large-scale e-commerce web applications specializing in gold trading, using Angular 17 and 20 to build scalable, maintainable, and high-performance front-end solutions. Collaborated closely with product and backend teams to implement complex business logic and improve user experience.",
+    details: [
+      "Developed responsive and dynamic interfaces for a high-traffic trading platform",
+      "Optimized application performance and loading speed for better user engagement",
+      "Implemented complex state management and real-time data handling for live gold price updates"
+    ],
     technologies: ["Angular", "TypeScript", "Git", "SASS"],
   },
   {
@@ -22,7 +28,14 @@ const rolesData = [
     period: "Jun 2021 – May 2023",
     location: "Tehran, Iran",
     description:
-      "Developed and maintained enterprise-level Angular applications with a strong focus on performance, reusability, and responsive design. Contributed to feature development, UI improvements, and code optimization following best practices.",
+      "Developed a multi-language car trading platform using Angular 14 and 17, focusing on creating intuitive user interfaces and seamless user experiences for buying and selling vehicles. Collaborated with cross-functional teams to implement core features and optimize platform performance.",
+    details: [
+      "Built a fully responsive, multi-language platform supporting Persian, English, and Arabic",
+      "Integrated and customized interactive maps for vehicle location and dealership finder",
+      "Implemented complex filtering and search functionality for car listings",
+      "Developed real-time notification system for price changes and new listings",
+      "Optimized application performance for better load times and smoother interactions"
+    ],
     technologies: ["Angular", "TypeScript", "Git", "SASS"],
   },
   {
@@ -34,7 +47,13 @@ const rolesData = [
     period: "Feb 2020 – May 2021",
     location: "Sanandaj, Iran",
     description:
-      "Built responsive web interfaces and implemented UI components based on design requirements. Focused on clean HTML/CSS structure, cross-browser compatibility, and improving overall user experience.",
+      "Developed user interfaces for an enterprise process integration system that connects internal organizational systems to external platforms through tasks and events. Focused on creating administrative dashboards and user interfaces for monitoring and controlling data flow between systems.",
+    details: [
+      "Developed various UI components with focus on usability and performance",
+      "Collaborated on designing and implementing data visualization and reporting modules",
+      "Optimized user experience for system administrators and end-users",
+      "Contributed to improving the display and management processes of organizational events"
+    ],
     technologies: ["HTML", "CSS", "JavaScript", "Git"],
   },
 ];

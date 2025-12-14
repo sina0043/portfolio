@@ -31,7 +31,11 @@ const Profile = () => {
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              I am a Front-End Developer specializing in building modern web interfaces, web applications, and scalable front-end solutions. I focus on clean architecture, performance, and high-quality code, with strong attention to detail and long-term maintainability. My goal is to create reliable, efficient, and modern digital products that deliver a smooth and engaging user experience.
+            As a passionate frontend developer, I view complex challenges as opportunities for growth and innovation. My career is built on a foundation of continuous learning and meaningful collaboration with industry experts, which has sharpened my technical expertise and strategic thinking.
+
+I focus on creating responsive, high-performance web applications using modern technologies like Angular. What drives me is not just writing code, but architecting systems that are scalable, maintainable, and user-centered.
+
+I believe in the power of collaborative innovation. Always curious, I stay at the forefront of emerging tech trends to build solutions that are both robust and forward-thinking.
             </p>
           </div>
         </div>
