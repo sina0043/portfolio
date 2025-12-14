@@ -53,7 +53,7 @@ const Contact = () => {
                 If you have a project or think we’d be a good fit, feel free to get in touch.
               </p>
             </div>
-            <div className="my-8.75 sm:max-lg:flex justify-between items-center">
+            <div className="my-8.75 sm:max-lg:flex justify-between items-center flex-wrap">
               {addressData.map((item, index) => (
                 <Address item={item} key={index} />
               ))}

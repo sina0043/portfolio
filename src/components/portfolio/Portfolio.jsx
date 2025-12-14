@@ -21,7 +21,7 @@ const projectData = [
     image: card2,
     category: "Table",
     title: "Table | Front-End Libraries Integration",
-    description:"A project integrating multiple front-end libraries and frameworks including Material Icons, MultiStep, Sortable, Animate, Argon, Bootstrap, DataTables, Fancybox, Font Awesome, jQuery plugins, Swiper, SliderPro, LightSlider, Particles, WOW.js, etc.",
+    description: "A project integrating multiple front-end libraries and frameworks including Material Icons, MultiStep, Sortable, Animate, Argon, Bootstrap, DataTables, Fancybox, Font Awesome, jQuery plugins, Swiper, SliderPro, LightSlider, Particles, WOW.js, etc.",
     link1: "https://sina0043.github.io/table/",
     link2: "https://github.com/sina0043/table",
   },
@@ -52,9 +52,16 @@ const Portfolio = () => {
 
       {/* Projects Grid */}
       <div className="mx-auto flex justify-center">
-        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6">
-          {projectData.map((data) => (
-            <Projects data={data} key={data.id} />
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6 place-items-center">
+          {projectData.map((data, index) => (
+            <div
+              key={data.id}
+              className={`
+          ${index === 2 ? "md:col-span-2 xl:col-span-1 flex justify-center" : ""}
+        `}
+            >
+              <Projects data={data} />
+            </div>
           ))}
         </div>
       </div>

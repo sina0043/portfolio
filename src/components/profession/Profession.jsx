@@ -62,29 +62,32 @@ const Profession = () => {
   return (
     <section
       id="experience"
-      className="content grid md:grid-cols-2 gap-10 px-4 py-12 md:py-20"
+      className="content px-4 py-12 md:py-20"
     >
       {/* Left Content */}
-      <div className="flex flex-col justify-center">
-        <p className="section-title mb-6">Experience</p>
+      <div className="flex flex-col justify-center md:w-[70%] m-auto">
+        <p className="section-title mb-6 text-center">Experience</p>
 
-        <p className="text-gray-400 text-sm sm:text-lg mb-4">
+        <p className="text-gray-400 text-sm sm:text-lg mb-4 text-center">
           I have worked as a front-end developer on professional, production-level
-          projects, focusing on scalable architecture, clean code, and performance.
-        </p>
-
-        <p className="text-gray-400 text-sm sm:text-lg">
-          My experience includes collaborating with cross-functional teams and
+          projects, focusing on scalable architecture, clean code, and performance.My experience includes collaborating with cross-functional teams and
           delivering maintainable front-end solutions using modern technologies.
         </p>
       </div>
-
-      {/* Right Content */}
-      <div>
-        {rolesData.map((role) => (
-          <Roles key={role.id} role={role} />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+        {rolesData.map((role, index) => (
+          <div
+            key={role.id}
+            className={`
+        flex justify-center
+        ${index === rolesData.length - 1 ? "lg:col-span-2" : ""}
+      `}
+          >
+            <Roles role={role} />
+          </div>
         ))}
       </div>
+
     </section>
   );
 };
