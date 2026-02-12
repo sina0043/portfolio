@@ -25,10 +25,10 @@ const Form = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_5geb9l7",       // Service ID
-        "template_ij1m8nz",      // Template ID
+        "service_f7wln03",       // Service ID
+        "template_83tzqq9",      // Template ID
         formRef.current,
-        "QxhAOWbThaFQtRE4v"     // Public Key
+        "T66f4gVcHPyc9GIMp"     // Public Key
       )
       .then(
         () => {

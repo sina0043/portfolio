@@ -41,7 +41,7 @@ const Introduction = () => {
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="https://mail.google.com/mail/?view=cm&to=sinanaseri0903@gmail.com&su=Hello&body=Hi%20Sina,"
+              href="https://mail.google.com/mail/?view=cm&to=sinanaseri0922@gmail.com&su=Hello&body=Hi%20Sina,"
               target="_blank"
               rel="noopener noreferrer"
             >

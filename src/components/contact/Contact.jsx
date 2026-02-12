@@ -12,8 +12,8 @@ const addressData = [
   {
     icon: faEnvelope,
     title: "My Email",
-    description: "sinanaseri0903@gmail.com",
-    url: "https://mail.google.com/mail/?view=cm&to=sinanaseri0903@gmail.com"
+    description: "sinanaseri0922@gmail.com",
+    url: "https://mail.google.com/mail/?view=cm&to=sinanaseri0922@gmail.com"
   },
   {
     icon: faGithub,
@@ -25,13 +25,13 @@ const addressData = [
     icon: faLinkedin,
     title: "My LinkedIn",
     description: "linkedin.com",
-    url: "https://www.linkedin.com/in/sina-naseri0903/"
+    url: "https://www.linkedin.com/in/sinanaseri0922/"
   },
   {
     icon: faTelegram,
     title: "My Telegram",
-    description: "t.me/sinanaseri0903",
-    url: "https://t.me/sinanaseri0903"
+    description: "t.me/sinanaseri0922",
+    url: "https://t.me/sinanaseri0922"
   },
 ];
 
