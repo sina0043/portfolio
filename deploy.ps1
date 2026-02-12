@@ -1,5 +1,5 @@
 $projectName = "portfolio"
-$branchName = "main"
+$branchName = "master"
 $repoName = "portfolio"
 
 $env:VITE_REPO_NAME = $repoName
